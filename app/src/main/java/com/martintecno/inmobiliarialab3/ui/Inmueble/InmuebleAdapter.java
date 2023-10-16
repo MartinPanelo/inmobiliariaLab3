@@ -95,8 +95,6 @@ public class InmuebleAdapter extends RecyclerView.Adapter<InmuebleAdapter.ViewHo
                             navigate(R.id.detalleInmuebleFragment,bundle);
                 }
             });
-
-
         }
     }
 }

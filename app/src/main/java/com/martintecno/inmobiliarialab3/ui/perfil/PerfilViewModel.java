@@ -60,7 +60,7 @@ public class PerfilViewModel extends AndroidViewModel {
 
     }
 
-    public void actualizarPerfil(String id,String dni, String apellido, String nombre, String email, String password, String telefono, int avatar) {
+    public void actualizarPerfil(String id,String dni, String apellido, String nombre, String email, String telefono, String password, int avatar) {
         {
 
             if (id == null || dni == null || apellido == null || nombre == null || email == null || password == null || telefono == null) {
